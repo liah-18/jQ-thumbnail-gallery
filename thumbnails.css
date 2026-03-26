@@ -41,6 +41,7 @@ img {
 header {
   text-align: center;
   margin-bottom: 2rem;
+  color: #0d67a8;
 }
 
 /* Style the main page heading. */
@@ -140,15 +141,15 @@ header h1 {
 
 /* Slightly enlarge the thumbnail on hover and add a shadow. */
 .thumb:hover {
-  transform: scale(1.03);
+  transform: scale(1.29);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 /* Highlight the currently selected thumbnail.
    This class is added and removed with jQuery. */
 .thumb.active {
-  border-color: #805ad5;
-  box-shadow: 0 8px 20px rgba(128, 90, 213, 0.28);
+  border-color: #00bbff;
+  box-shadow: 0 8px 20px rgba(12, 125, 217, 0.28);
 }
 
 
